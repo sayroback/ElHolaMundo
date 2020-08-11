@@ -1,0 +1,8 @@
+body {
+  background-color: rgba(185, 185, 185, 0.603);
+}
+
+.caja {
+  margin: 8px;
+  background-color: green;
+}
