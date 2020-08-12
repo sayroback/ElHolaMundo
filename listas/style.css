@@ -1,0 +1,27 @@
+body {
+  background-color: #eee;
+}
+ul {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding-left: 0px;
+}
+li {
+  list-style-type: none;
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+}
+/* ul #li-1 {
+  list-style-type: square;
+}
+ul #li-2 {
+  list-style-type: circle;
+}
+
+ul #li-3 {
+  list-style-type: upper-roman;
+}
+ul #li-4 {
+  list-style-type: lower-alpha;
+} */
