@@ -1,0 +1,47 @@
+body {
+  background-color: #eee;
+}
+a {
+  color: hotpink;
+  background-color: chartreuse;
+  border: 1px solid rgb(16, 196, 40);
+  border-radius: 4px;
+  display: inline-block;
+  padding: 15px;
+  margin: 4px;
+}
+a:link {
+  /* Estado normal del link sin visitar */
+  color: red;
+}
+a:visited {
+  /* Estado del link al ser visitado */
+  color: green;
+}
+a:active {
+  color: black;
+}
+a:hover {
+  color: blue;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* Estilo de la fuente */
+  font-style: oblique;
+  /* Tamaño de la fuente */
+  font-size: 0.8em;
+  /* Ancho de la fuente */
+  font-weight: 100;
+  /* Color de la fuente */
+  color: #222fff;
+  text-align: left;
+  /* Identacion al primer renglon */
+  text-indent: 15px;
+  /* altura de los renglones */
+  line-height: 1.5;
+  /* agrefa separacion a las parabras del texto */
+  word-spacing: 5px;
+  /* Agregar sombras al texto */
+  text-shadow: 1px 1px 2px rgb(94, 94, 94);
+}
