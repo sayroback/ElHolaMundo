@@ -1,6 +1,2 @@
-<<<<<<< HEAD
 intro-node/node_modules/
-
-=======
-intro-node/node_modules/*
->>>>>>> 86ed2a3f2fbe79f73efd0dbd5c54ed538989edc2
+serverless/node_modules/
