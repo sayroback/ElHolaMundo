@@ -7,10 +7,8 @@ mongoose.connect(process.env.MONGODB_URI, {
   useUnifiedTopology: true,
 });
 
-Users.create({ name: "chanchito feliz" });
-
 app.get("*", (req, res) => {
-  Users.find().then((x) => res.send(x));
+  res.send("Hola Mundo");
 });
 
 module.exports = app;

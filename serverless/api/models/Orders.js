@@ -1,12 +1,12 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const Meals = mongoose.model(
-  "Meal",
+const Orders = mongoose.model(
+  "Order",
   new Schema({
-    name: String,
-    desc: String,
+    meal_id: { type: Schema.Types.ObjectId, ref: "Meal" },
+    user_id: String,
   })
 );
 
-module.exports = Meals;
+module.exports = Orders;
