@@ -11,3 +11,16 @@ Instalamos la libreria express
 
 Llamos express en el index.js (Descripcion en el index.js)
 
+Instalamos now
+(npm i -g now)
+
+Creamos el archivo now.json y lo configuramos
+
+Corremos la app local
+(now dev)
+
+Login en Vercel
+(now login)
+
+Deploy app
+(now)
