@@ -7,7 +7,6 @@ mongoose.connect(process.env.MONGODB_URI, {
   useUnifiedTopology: true,
 });
 
-const Users = mongoose.model("User", new mongoose.Schema({ name: String }));
 Users.create({ name: "chanchito feliz" });
 
 app.get("*", (req, res) => {
