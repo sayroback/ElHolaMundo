@@ -1,0 +1,11 @@
+API REST
+¿Qué es?
+  Interfaz para que el cliente solicite y reciba datos de nuestra BD
+
+Acciones:
+  GET (Listar)
+  POST (Crear)
+  PUT (Remplazar)
+  PATCH (Actualizar)
+  DELETE (Eliminar)
+
