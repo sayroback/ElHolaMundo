@@ -1,0 +1,13 @@
+Creado un proyecto
+
+Dentro de la carpeta del proyecto inicamos npm
+(npm init -y)
+
+Creamos el index.js
+(touch index.js)
+
+Instalamos la libreria express
+(npm i -S express)
+
+Llamos express en el index.js (Descripcion en el index.js)
+
